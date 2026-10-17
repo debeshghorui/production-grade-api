@@ -1,22 +1,20 @@
 {
   "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
     // Environment setup & latest features
     "lib": [
       "ESNext"
     ],
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleDetection": "force",
     "jsx": "react-jsx",
     "allowJs": true,
-    "types": [
-      "bun"
-    ],
     // Bundler mode
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "NodeNext",
     "verbatimModuleSyntax": true,
-    "noEmit": true,
     // Best practices
     "strict": true,
     "skipLibCheck": true,
